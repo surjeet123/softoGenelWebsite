@@ -1,0 +1,124 @@
+@media all and (max-width:767px) {
+    .headersocial .header-social{
+        display: none;
+    }
+    .headersocial{
+        padding-right: 16px;
+    }
+    .appheader .vcontainer-flex,.appheader  .vcontainer {
+        padding: 0;
+    }
+    .applogo{
+        margin-left: 16px;
+    }
+    .top-header-row a:nth-child(2), .top-header-row a:nth-child(3) {
+        display: none;
+    }
+    .top-header-link{
+        padding: 0;
+    }
+
+    .top-header-link i {
+        display: none;
+    }
+    .banner-title{
+        font-size: 30px;
+        line-height: 1.2;
+    }
+    .banner-heading{
+        display: none;
+    }
+
+    .banner-item{
+        height: 250px;
+    }
+
+    .aboutusRow{
+        display: block;
+    }
+
+    .aboutisImage{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .aboutContent{
+        padding: 20px;
+        width: 100%;
+    }
+    .heading1{
+        font-size: 30px;
+    }
+
+    .aboutSec{
+        padding: 60px 0 10px;
+    }
+
+    .serviceCol{
+        width: 100%;
+    }
+
+    .techcol {
+        width: 100%;
+    }
+
+    .techbox{
+        display: block;
+        text-align: center;
+    }
+
+    .techImage{
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .clientSliderBox{
+        padding: 20px;
+        display: block;
+    }
+    .clientSliderMedia {
+        height: 100px;
+        width: 100px;
+        min-width: 100px;
+    }
+
+    .clientSliderMediaBg{
+        width: 60px;
+        height: 60px;
+        border-radius: 10px;
+        bottom: auto;
+        top: -13px;
+        left: -13px;
+    }
+    .mediabox.relative {
+        width: 100px;
+        margin: 0 auto;
+    }
+    .clientSliderContent {
+        padding-left: 0;
+    }
+    .clientSliderContent p{
+        font-size: 16px;
+    }
+    .vsection{
+        padding: 30px 0;
+    }
+    footer.footer{
+        padding: 30px 0;
+    }
+    .footer-row{
+        display: block;
+    }
+    .footer-box {
+        width: 100%;
+    }
+
+    .footer-box-abt {
+        padding-left: 0;
+        padding: 30px 0;
+    }
+    .footer-box-services .footer-link {
+        width: 100%;
+    }
+    
+}

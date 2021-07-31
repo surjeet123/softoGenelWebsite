@@ -1,136 +1,224 @@
-@media all and (max-width:1200px) {
+@media all and (max-width: 1200px) {
+  .mobileNavHeader,
+  .mobileView {
+    display: block;
+  }
 
-    .mobileNavHeader,
-    .mobileView {
-        display: block;
-    }
+  .appnav {
+    display: none;
+  }
 
-    .appnav {
-        display: none;
-    }
+  .appheader-row {
+    height: 60px;
+  }
 
-    .appheader-row {
-        height: 60px;
-    }
+  .headersocial {
+    flex: 1;
+    justify-content: flex-end;
+    padding-right: 30px;
+  }
 
-    .headersocial {
-        flex: 1;
-        justify-content: flex-end;
-        padding-right: 30px;
-    }
+  .mobileMenu {
+    width: 60px;
+    min-width: 60px;
+    height: 60px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #222222;
+    font-size: 22px;
+    cursor: pointer;
+  }
 
-    .mobileMenu {
-        width: 60px;
-        min-width: 60px;
-        height: 60px;
-        color: #fff;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background: #222222;
-        font-size: 22px;
-        cursor: pointer;
-    }
+  .appheader {
+    border-bottom: 0;
+  }
 
-    .appheader {
-        border-bottom: 0;
-    }
+  .app-contaner {
+    padding-top: 95px;
+  }
 
-    .app-contaner {
-        padding-top: 95px;
-    }
+  .appnav {
+    display: block;
+    background: rgb(255 255 255);
+    position: fixed;
+    left: -110%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    transition: all 0.3s;
+  }
 
-    .appnav {
-        display: block;
-        background: rgb(255 255 255);
-        position: fixed;
-        left: -110%;
-        width: 100%;
-        top: 0;
-        bottom: 0;
-        transition: all .3s;
-    }
+  .appnav.open {
+    left: 0;
+  }
 
-    .appnav.open {
-        left: 0;
-    }
-    
-    .mobileNavHeader {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 16px;
-        border-bottom: 1px solid #eee;
-    }
+  .mobileNavHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    border-bottom: 1px solid #eee;
+  }
 
-    .closeNav {
-        color: #999;
-        font-size: 20px;
-        cursor: pointer;
-    }
+  .closeNav {
+    color: #999;
+    font-size: 20px;
+    cursor: pointer;
+  }
 
-    .nav-list {
-        display: block;
-        text-align: left;
-        padding: 16px;
-        height: calc(100vh - 100px);
-        overflow: auto;
-    }
-    li.nav-list-item{
-        margin: 0;
-    }
-    a.nav--link {
-        font-weight: 600;
-        padding: 10px 0;
-        cursor: pointer;
-    }
-    .nav-list-item:hover .megamenu {
-        animation: none;
-        display: none;
-        z-index: 100;
-        opacity: 1;
-    }
-    .megamenu{
-        opacity: 1;
-        position: relative;
-        top: 0;
-        display: none;
-        box-shadow: none;
-        min-height: 0;
-        background: #f9f9f9;
-        padding: 0;
-        transition: 0s;
-        
-    }
+  .nav-list {
+    display: block;
+    text-align: left;
+    padding: 16px;
+    height: calc(100vh - 100px);
+    overflow: auto;
+  }
+  li.nav-list-item {
+    margin: 0;
+  }
+  a.nav--link {
+    font-weight: 600;
+    padding: 10px 0;
+    cursor: pointer;
+  }
+  .nav-list-item:hover .megamenu {
+    animation: none;
+    display: none;
+    z-index: 100;
+    opacity: 1;
+  }
+  .megamenu {
+    opacity: 1;
+    position: relative;
+    top: 0;
+    display: none;
+    box-shadow: none;
+    min-height: 0;
+    background: #f9f9f9;
+    padding: 0;
+    transition: 0s;
+  }
+
+  .package .package-details {
+    flex-wrap: wrap;
+  }
+
+  .package .price-details {
+    margin-bottom: 40px;
+  }
+
+  .package .frontend-package {
+    width: 100%;
+  }
+
+  .package .fullstack-package {
+    width: 100%;
+  }
+
+  .tutors .skill-para {
+    padding-left: 20px;
+  }
 }
 
-@media all and (max-width:1024px) {
-    .megamenu-images{
-        display: none;
-    }
-    .megamenu-nav{
-        width: 100%;
-        padding: 0;
-        border: 0;
-        min-height: 0;
-        padding: 16px;
-    }
-    .mega-nav-list.two-col li {
-        width: 100%;
-    }
-    .megamenu-nav{
-        display: block;
-    }
-    .banner-item{
-        height: 500px;
-    }
-    .heading1{
-        font-size: 40px;
-    }
-    .clientSliderContent{
-        padding-left: 20px;
-    }
-    .footer-box-abt{
-        padding-left: 20px;
-    }
+@media all and (max-width: 1024px) {
+  .megamenu-images {
+    display: none;
+  }
+  .megamenu-nav {
+    width: 100%;
+    padding: 0;
+    border: 0;
+    min-height: 0;
+    padding: 16px;
+  }
+  .mega-nav-list.two-col li {
+    width: 100%;
+  }
+  .megamenu-nav {
+    display: block;
+  }
+  .banner-item {
+    height: 500px;
+  }
+  .heading1 {
+    font-size: 40px;
+  }
+  .clientSliderContent {
+    padding-left: 20px;
+  }
+  .footer-box-abt {
+    padding-left: 20px;
+  }
+
+  .package-details {
+    flex-wrap: wrap;
+  }
+
+  .price-details {
+    margin-bottom: 40px;
+  }
+
+  .frontend-package {
+    width: 100%;
+  }
+
+  .fullstack-package {
+    width: 100%;
+  }
+
+  .students .reviews {
+    flex-wrap: wrap;
+  }
+
+  .students .review-box {
+    width: 48%;
+  }
+
+  .students .student-details {
+    width: 80%;
+  }
+
+  
+  .tutors .skill-title {
+    width: 40%;
+  }
+
+  .tutors .skill-para {
+    width: 60%;
+  }
+
+  .tutors .name {
+    width: 50%;
+  }
+
+  .trainingSec .training-keys {
+    width: 45%;
+  }
+
+  .trainingSec .requst-form {
+    width: 54%;
+  }
+
+  .trainingSec .training-courses {
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .trainingSec .training-courses .course-img {
+    width: 24%;
+  }
+  .trainingSec .call-back {
+      padding: 25px;
+  }
+  .trainingSec .call-back .details {
+      display: flex;
+      flex-wrap: wrap;
+  }
+  .trainingSec .call-back .form--control {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 20px;
+  }
 }

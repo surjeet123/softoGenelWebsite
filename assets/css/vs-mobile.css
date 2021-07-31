@@ -120,5 +120,245 @@
     .footer-box-services .footer-link {
         width: 100%;
     }
+
+
+    /*****packages*****/
+
+     .package-banner {
+        padding: 44px 0;
+    }
+     .text-box p {
+        font-size: 17px;
+    }
+
+    .text-box h1 {
+        font-size: 50px;
+    }
+
+    .package .package-heading {
+        font-size: 37px;
+    }
+
+    .package .package-para {
+        font-size: 16px;
+    }
+
+    .package .package-details {
+        flex-wrap: wrap;
+    }
+
+    .package .details{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    .package .price-details {
+     margin-bottom: 30px;
+     width: 100%;
+    }
+
+
+    .package .frontend-package{
+        width: 100%;
+    }
+    
+    .package .fullstack-package{
+        width: 100%;
+    }
+
+
+    /*****popup*****/
+
+    .modal-bg .modal-popup {
+        width: 300px;
+        height: 558px;
+        top: 57%;
+    }
+
+    .modal-popup .close {
+        top: 0;
+        left: 89%;
+        font-size: 24px;
+    }
+
+    .modal-popup .heading p {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+
+    .modal-popup .contact-form {
+        padding: 20px 20px;
+        margin-top: 0;
+    }
+
+    .modal-popup .contact-form form {
+        display: block;
+    }
+
+    .modal-popup .form--control {
+        width: 100%;
+        margin-bottom: 12px;
+    }
+
+    .package .heading {
+        padding-top: 50px;
+        font-size: 19px;
+    }
+
+    .package .heading p {
+        font-size: 14px;
+        margin-bottom: 0 !important;
+    }
+    .package {
+        padding-bottom: 100px;
+    }
+
+    /*****our students*****/
+
+    .students {
+        padding-bottom: 100px;
+    }
+
+    .students .heading{
+        font-size: 35px;
+    }
+
+    .students .review-content {
+        display: block;
+    }
+
+    .students .review-box{
+        width: 100%;
+    }
+
+    .students .student-details{
+        width: 100%;
+    }
+
+    .students .student-img {
+        text-align: center;
+        width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .students .student-details {
+        padding-left: 0;
+    }
+    .students .student-details h5{
+        text-align: center;
+        padding-top: 15px;
+    }
+    
+    .students .student-details p{
+       text-align: center;
+    }
+
+    .students .student-review{
+        text-align: center;
+    }
+
+    /*****our tutors*****/
+
+    .tutors .tutors-info{
+        display: block;
+    }
+
+    .tutors .info-box{
+        width: 100%;
+    }
+
+    .tutors .tutor-profile{
+        flex-wrap: wrap;
+    }
+
+
+    .tutors .skills-info {
+        display: block;
+        
+    }
+
+    .tutors .skill-title{
+        width: 100%;
+    }
+
+    .tutors .skill-para{
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .tutors .name {
+        width: 100%;
+    }
+
+    .tutors .tutor-img {
+        margin: auto;
+    }
+
+    .tutors .tutor-name {
+        text-align: center;
+        width: 100%;
+        padding-left: 0;
+        padding-top: 12px;
+    }
+
+
+
+    .trainingSec .heading h1 {
+        font-size: 30px;
+    }
+
+    .trainingSec .heading p {
+        font-size: 16px;
+    }
+
+    .trainingSec .training-courses {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .trainingSec .training-courses .course-img {
+       width: 48%;
+       margin-top: 15px;
+    }
+
+    .trainingSec .training-program {
+        padding:  0;
+    }
+
+    .trainingSec .training-info {
+        display: block;
+     
+    }
+
+    .trainingSec .training-keys{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .trainingSec .requst-form {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .trainingSec .call-back .details {
+        display: block;
+    }
+
+    .trainingSec .call-back .form--control {
+        width: 100%;
+    }
+
+    .trainingSec {
+       padding-bottom: 20px;
+    }
+    .students .review-box {
+        width: 100%;
+    }
+    .students .student-img {
+        width: 200px;
+      }
     
 }

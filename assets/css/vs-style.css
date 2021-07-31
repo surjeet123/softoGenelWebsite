@@ -410,6 +410,9 @@ a.aboutusExp {
     left: 0;
     top: 0;
 }
+section.serviceSec {
+    margin-top: 40px;
+}
 
 .serviceHead1 {
     text-align: center;
@@ -845,4 +848,646 @@ a.footer-link {
     color: #f1f1f1;
     text-align: center;
     padding: 16px;
+}
+
+
+/*****packages*****/
+.package {
+    padding-bottom: 300px;
+}
+.banner-image img{
+    width: 100%;
+}
+
+.package-banner{
+    padding: 100px 0;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+
+.text-box h1{
+    font-size: 60px;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.text-box p{
+    font-size: 22px;
+}
+
+.package-heading{
+    font-size: 45px;
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.package-para{
+    font-size: 18px;
+    text-align: center;
+    color: #000;
+}
+
+.package-details{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.frontend-package{
+    width: 21.8%;
+    display: flex;
+    flex-direction: column;
+}
+
+.fullstack-package{
+    width: 76.8%;
+    display: flex;
+    flex-direction: column;
+}
+
+.frontend{
+    width: 100%;
+    font-size: 20px;
+    padding: 12px 0;
+    background-color: #e5eaed;
+    color: #000;
+    border-radius: 6px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.fullstack{
+    width: 100%;
+    font-size: 20px;
+    padding: 12px 0;
+    background-color: #e5eaed;
+    color: #000;
+    border-radius: 6px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.price-details{
+    width: 100%; 
+    border: 1px solid #cfcfcf;
+    border-radius: 6px;
+    margin-top: 4px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.duration{
+    height: 110px;
+    text-align: center;
+    color: #fff;
+    border-radius: 6px 6px 0 0;
+}
+
+.package .price {
+    font-size: 20px;
+    padding: 5px 0;
+    font-weight: 300;
+}
+
+.package .months {
+    font-size: 20px;
+    padding: 10px 0;
+    font-weight: 300;
+}
+
+
+.price span{
+    font-weight: 700;
+}
+
+.months span{
+    font-weight: 700;
+}
+
+.course-details h3 {
+    font-size: 18px;
+    color: #ff830a;
+    font-weight: bold;
+    padding: 15px 0 15px 15px;
+    margin: 0;
+}
+.course-details p{
+    font-size: 14px;
+    padding-left: 15px;
+    margin-bottom: 0;
+}
+
+.course-details hr{
+    height: 1px !important;
+}
+.course-details {
+    position: relative;
+    padding-bottom: 100px;
+    flex: 1;
+}
+.package .start-now {
+    position: absolute;
+    text-align: center;
+    padding: 15px 0 0;
+    margin: 0;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    top: auto;
+}
+
+.package .start-btn{
+    padding: 10px 85px;
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    
+}
+
+.package .vbtn.startBtn {
+    color: #fff;
+    background: #000;
+    font-size: 18px;
+    padding: 10px 80px;
+    display: inline-block;
+    border-radius: 0;
+    border: 1px solid#cfcfcf;
+}
+
+.package .details{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    
+}
+
+.package .border-bottom{
+    margin: 12px 0;
+    height: 1px;
+}
+
+.package .bottom1{
+    border: 1px solid #ffcd9d;
+    height: 1px;
+}
+
+.package .bottom2{
+    border: 1px solid #fec6a2;
+    height: 1px;
+}
+
+
+.package .bottom3{
+    border: 1px solid #a8daf5;
+    height: 1px;
+}
+
+
+.package .bottom4{
+    border: 1px solid #bcc2f7;
+    height: 1px;
+}
+
+
+
+/***duration-colours***/
+
+.package .one{
+    background-color: #ff830a;
+}
+
+.package .two{
+    background-color: #fd7117;
+}
+
+.package .three{
+    background-color: #26a2e6;
+}
+
+.package .four{
+    background-color: #5867ec;
+}
+
+
+/*****pop-up*****/
+
+.modal-bg{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1111;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.modal-bg.active{
+    visibility: visible;
+    opacity: 1;
+}
+
+.modal-popup{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background-color: #fff;
+    border-radius: 10px;
+    height: 537px;
+    width: 714px;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 20px 0px rgb(0 0 0 / 20%);
+    text-align: center;
+    z-index: 10;
+}
+
+.modal-popup .close {
+    position: absolute;
+    top: 10px;
+    left: 95%;
+    font-size: 24px;
+}
+
+.close .fas {
+    cursor: pointer;
+}
+
+.modal-popup .heading {
+    padding-top: 50px;
+}
+
+.modal-popup .heading h1 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.modal-popup .heading p {
+    font-size: 16px;
+    background-color: #fff;
+}
+
+.modal-popup .contact-form {
+    padding: 20px 80px;
+    margin-top: 30px;
+}
+
+.modal-popup .contact-form form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.modal-popup .form--control {
+    width: calc(50% - 20px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.modal-popup .form--control input.form__element {
+    width: 100%;
+    height: 48px;
+    background: #fff;
+    border: 1px #d9d9d9 solid;
+    outline: none;
+    padding: 0 10px;
+    border-radius: 6px;
+}
+
+
+.form--control.w-100 textarea.form__element {
+    width: 100%;
+    height: 100px;
+    background: #fff;
+    border: 1px #d9d9d9 solid;
+    outline: none;
+    padding: 10px;
+    resize: none;
+    border-radius: 6px;
+}
+
+.modal-popup .submit-btn {
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+    padding: 10px 60px;
+    color: #fff;
+    background-color: #ff830a;
+    border: none;
+    border-radius: 6px;
+}
+
+.modal-popup .submit-btn:hover{
+    background-color: #000;
+    color: #fff;
+    transform: 0.2s;
+}
+
+
+/*****our students*****/
+.students{
+    padding-bottom: 300px;
+}
+
+.students .heading{
+    font-size: 45px;
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.students .reviews{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.students .review-box{
+    width: 49%;
+    box-shadow: 0 0 10px rgba(0,0,0,.29);
+    margin-bottom: 25px;
+    border-radius: 6px;
+}
+
+.students .review-content{
+    display: flex;
+    align-items: center;
+    padding: 30px 25px;
+}
+
+.students .student-details{
+    width: 66%;
+    padding-left: 30px;
+}
+
+.students .student-img{
+    width: 34%;
+}
+
+
+.students .student-img img{
+    width: 100%;
+}
+
+.students .student-details h5{
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+.students .student-details p{
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #656b75;
+}
+
+.students .student-review{
+    font-size: 14px;
+    color: #5c5c5c;
+}
+
+/*****our turors*****/
+
+.tutors{
+    padding: 40px 0 0;
+}
+
+.our-tutors .heading{
+    font-size: 45px;
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.tutors .tutors-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+
+.tutors .info-box{
+    width: 49%;
+    box-shadow: 0 0 10px rgba(0,0,0,.29);
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.tutors .tutors-content{
+    padding: 20px;
+}
+
+.tutors .tutor-profile{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.tutors .tutor-img img{
+    border-radius: 50%;
+}
+
+.tutors .tutor-name {
+    padding-left: 30px;
+}
+
+.tutors .tutor-name h5{
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+.tutors .tutor-name p{
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #656b75;
+}
+
+
+.tutors .skills-info{
+    display: flex;
+    align-items: center;
+}
+
+.tutors .tutor-skills {
+    padding-bottom: 10px;
+}
+
+.tutors .skill-title{
+    width: 15%;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.tutors .skill-para{
+    width: 85%;
+    font-size: 14px;
+    color: #656b75;
+}
+
+
+.tutors .read-more a{
+    margin-top: 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+
+/*****our training courses index page *****/
+
+.trainingSec{
+    background-color: #000;
+    padding: 40px 0;
+}
+
+.trainingSec .heading {
+    text-align: center;
+}
+
+.trainingSec .training-program{
+    padding-top: 40px;
+}
+
+.trainingSec .heading h1{
+    font-size: 45px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+}
+
+.trainingSec .heading p{
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.trainingSec .training-courses{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.trainingSec .training-info{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.trainingSec .training-keys{
+    background-color: #fff;
+    width: 28%;
+    border-radius: 4px;
+}
+
+.trainingSec .training-points{
+    padding: 20px 30px;
+}
+
+
+.trainingSec .key-points li{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    padding: 5px 0;
+}
+
+.trainingSec .key-points .fa{
+    color: #4ec267;
+    padding-right: 20px;
+}
+
+.trainingSec .training-keys .training-title{
+    font-size: 26px;
+    color: #fca120;
+    font-weight: bold;
+}
+
+.trainingSec .requst-form {
+    background-color: #1a1a1a;
+    border-radius: 4px;
+    width: 69%;
+}
+
+.trainingSec .call-back {
+    padding: 35px;
+}
+
+.trainingSec .call-back .form--control {
+    width: calc(50% - 20px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.trainingSec .call-back .form--control select.form__element {
+    width: 100%;
+    height: 48px;
+    background: #fff;
+    border: 1px #d9d9d9 solid;
+    outline: none;
+    padding: 0 10px;
+    border-radius: 6px;
+}
+
+.trainingSec .call-back .form--control input.form__element {
+    width: 100%;
+    height: 48px;
+    background: #fff;
+    border: 1px #d9d9d9 solid;
+    outline: none;
+    padding: 0 10px;
+    border-radius: 6px;
+}
+
+.trainingSec .call-back .submit-btn{
+    text-align: left;
+    font-size: 16px;
+    padding: 10px 40px;
+    color: #fff;
+    background-color: #fca120;
+    border: none;
+    border-radius: 6px;
+    animation: 0.5s;
+}
+
+.trainingSec .call-back .details{
+    display: flex;
+}
+
+.trainingSec .form-title h3{
+    font-size: 26px;
+    color: #fff;
+}
+
+.trainingSec .form-title p{
+    font-size: 16px;
+    color: #fca120;
+}
+
+
+
+.trainingSec .course-options{
+    width: 47%;
+    height: 48px;
+    border-radius: 6px;
+}
+
+.trainingSec .call-back .submit-btn:hover{
+    background-color: #000;
 }
